@@ -1,0 +1,39 @@
+.navigation{
+	padding-left: 100px;
+	height: 65px;
+}
+.navigation .form-control{
+	width: 300px;
+	height: 40px;
+	font-size: 18px;
+}
+.navigation .btn{
+	font-size: 18px;
+}
+
+.content {
+	padding-top: 50px;
+}
+ .navbar-right{
+	font-size: 17px;
+}
+.tourist-places h1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.food{
+	padding-top: 30px;
+}
+.food h1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.travel-experience{
+	padding-top: 30px;
+}
+.travel-experience h1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.slick-next .slick-arrow{
+}

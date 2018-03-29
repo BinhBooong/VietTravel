@@ -1,0 +1,328 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, inintial-scale=1" >  
+     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/BlogDuLich.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+
+    <title>Trang chủ</title>
+    </head>
+    <body>
+        <!--NAVIGATION START-->
+        <div class="navigation">
+        <nav class="navbar navbar-default  navbar-fixed-top">
+      		<div class="container-fluid">
+        		<div class="navbar-header">
+          			<a class="navbar-brand" href="#" >Logoooooo</a>
+        		</div>
+        		<!-- <ul class="nav navbar-nav">
+         			<li class="active"><a href="#">Home</a></li> -->
+          <!--dropdown: dùng để thả xuống
+          			<!-- <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+           			Du lịch Việt Nam <span class="caret"></span></a>
+           				<ul class="dropdown-menu">
+            				<li><a href="#">Miền Bắc</a></li>
+                			<li><a href="#">Miền Trung</a></li>
+                		<li><a href="#">Miền Nam</a></li>
+            			</ul>
+         			</li>
+          			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          			Khách sạn<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li><a href="#">Nhà hàng Miền Bắc</a></li>
+                			<li><a href="#">Nhà hàng Miền Trung</a></li>
+                			<li><a href="#">Nhà hàng Miền Nam</a></li>
+            			</ul>
+          			</li>
+          			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          			Ẩm thực<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li><a href="#">Món ăn ngon</a></li>
+                			<li><a href="#">Nhà hàng</a></li>
+          				</ul>
+          			</li> -->
+          
+          			<!--tạo ô search-->
+              
+          		<form class="nav navbar-form navbar-left" action="/action_page.php">
+          			<div class="form-group">
+           				<input type="text" class="form-control" placeholder="Tìm kiếm">
+          			</div>
+          			<button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        		</form>
+        		</ul>
+            	<ul class="nav navbar-nav navbar-right">
+         			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng kí</a></li>
+         	 		<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+       			</ul>
+        	</div>
+    	</nav> 
+      </div>	
+        <!--NAVIGATION END-->
+        
+        
+    	<!--HEADER START-->
+        <div class="header">
+    		<div class="container-fluid">
+      			<div id="mySlide" class="carousel slide" data-ride="carousel">
+    				<ol class="carousel-indicators">
+        <!--data-target: ta muon nham moi slide nao, data-slide: anh xa toi slide nao trong list slide-->
+        				<li data-target="#mySlide" data-slide-to="0" class="active"></li>
+            			<li data-target="#mySlide" data-slide-to="1"></li>
+            			<li data-target="#mySlide" data-slide-to="2"></li>
+        			</ol>
+        <!--Phan bao slide-->
+        		<div class="carousel-inner">
+        			<div class="item active">
+            			<img src="img/chicago.jpg" alt="Mai Chau" height="582" class="img-responsive" />
+                		<div class="carousel-caption">
+                			<h1>Ha Noi</h1>
+                		</div>
+           			</div>
+            
+            		<div class="item">
+            			<img src="img/la.jpg"  alt="Phu Quoc" class="img-rounded" />
+                		<div class="carousel-caption">
+                			<h1>Chicago</h1>
+                		</div>
+           			</div>
+            
+            		<div class="item">
+            			<img src="img/ny.jpg" alt="Australia" class="img-responsive" />
+                		<div class="carousel-caption">
+                			<h1>Ho Chi Minh</h1>
+                		</div>
+            		</div>
+        		</div>
+            
+            <!-- controll điều khiển bên trái và bên phải-->
+        		<a class="left carousel-control" href="#mySlide" role="button" data-slide="prev">
+        			<span class="glyphicon glyphicon-chevron-left"></span>
+            		<span class="sr-only">Prev</span>
+        		</a>
+        
+        		<a class="right carousel-control" href="#mySlide" role="button" data-slide="next">
+        			<span class="glyphicon glyphicon-chevron-right"></span>
+            		<span class="sr-only">Next</span>
+        		</a>
+      		</div>
+      	</div>
+        </div>
+        
+        
+    	<!--HEADER END-->
+
+
+    	<!--CONTENT START-->
+        <div class="content">
+        	<div class="container-fluid">
+            	<!-- <div class="row">
+      				<div class="col-sm-9 content-left">
+                    	<div class="row">
+                        <div class="col-sm-6">
+                        	<div class="thumbnail">
+                        	<a href="#">
+                        		<img src="img/13-12-20176-8110-1513140508.png"/>
+                                <div class="caption">
+                                	<p>Hòa mình với không khí giáng sinh đậm chất Đà Nẵng</p>
+                                </div>
+                        	</a>    
+                        </div>
+                    	</div>
+                        <div class="col-sm-6">
+                        	<div class="thumbnail">
+                        	<a href="#">
+                        		<img src="img/13-12-20176-8110-1513140508.png"/>
+                                <div class="caption">
+                                	<p>Hòa mình với không khí giáng sinh đậm chất Đà Nẵng</p>
+                                </div>
+                        	</a>    
+                        </div>
+                    	</div>
+          
+                        
+                        <div class="col-sm-6">
+                        	<div class="thumbnail">
+                        	<a href="#">
+                        		<img src="img/13-12-20176-8110-1513140508.png"/>
+                                <div class="caption">
+                                	<p>Hòa mình với không khí giáng sinh đậm chất Đà Nẵng</p>
+                                </div>
+                        	</a>    
+                        </div>
+                    	</div>
+                        <div class="col-sm-6">
+                        	<div class="thumbnail">
+                        	<a href="#">
+                        		<img src="img/13-12-20176-8110-1513140508.png"/>
+                                <div class="caption">
+                                	<p>Hòa mình với không khí giáng sinh đậm chất Đà Nẵng</p>
+                                </div>
+                        	</a>    
+                        </div>
+                    	</div>
+                    	</div>
+                    </div>
+     				<div class="col-sm-3 conten-right">
+                    
+                    </div>
+    			</div> -->
+            <div class="tourist-places">
+                <h1>Địa điểm du lịch</h1>
+                <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>   
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="food">
+                <h1>Món ngon</h1>
+                <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>   
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  <button class="slick-next slick-arrow" >Next</button>
+  </div>
+
+
+  <div class="travel-experience">
+                <h1>Kinh nghiệm du lịch</h1>
+                <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>   
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="img/13-12-20176-8110-1513140508.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+            </div>
+
+
+            </div>
+            </div>
+        </div>
+        <!--CONTENT END
+
+
+
+
+
+
+    	<!--FOOTER START-->
+        <div class="footer"></div>
+        <!--FOOTER END-->
+
+    </body>
+    </html>
