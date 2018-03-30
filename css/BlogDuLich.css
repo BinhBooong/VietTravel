@@ -20,12 +20,12 @@
  .navbar-right{
 	font-size: 18px;
 }
-.tourist-places h2{
+.tour-list h2{
 	font-size: 32px;
 	text-align: center;
 	font-weight: bold;
 }
-.tourist-places p{
+.tour-list p{
 	text-align: center;
 	font-size: 18px;
 	color: #969696;
@@ -33,9 +33,20 @@
 }
 
 
-.tourist-places-info{
-	background-image: url(maiha.jpg);
-	height: 100%;
+.centered {
+	color: 0cff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.tourist-places-info .tourism-travel-info{
+	background-image: url(C:/Users/My PC/Desktop/Dulich/BlogVietTravel/img/maiha.jpg);
+	height: 300px;
+	padding-top: 20px;
+	padding-bottom: 50px;
 }
 
 
@@ -62,10 +73,8 @@
 	font-size: 16px;
 	text-align: left;
 	color: white;
-	font-weight: bold
 }
 .footer h3{
-	color: white;
+	color: white ;
 	text-align: center;
-	font-weight: bold
 }
